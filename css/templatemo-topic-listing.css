@@ -1097,7 +1097,7 @@ blockquote {
   }
 
   .featured-section {
-    border-radius: 0 0 80px 80px;
+    border-radius: 0 0 40px 40px;
     padding-bottom: 50px;
   }
 
@@ -1153,4 +1153,20 @@ img.logo_img {
 }
 img.logo_img_footer {
   width: 100px !important;
+}
+
+.under_footer {
+  font-size: 10px !important;
+}
+
+.share_link {
+  /* font-size: 16px !important; */
+}
+@media screen and (max-width: 768px) {
+  .text_block_youtube {
+    font-size: 16px !important;
+  }
+  .share_link {
+    font-size: 14px !important;
+  }
 }
