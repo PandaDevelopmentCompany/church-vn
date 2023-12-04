@@ -23,6 +23,8 @@
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">
 
+        <link href="https://db.onlinewebfonts.com/c/5795a47e252d16c82bb79fa354b224db?family=VK+Sans+Display+Regular" rel="stylesheet">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -126,9 +128,9 @@
                                 <a href="index.html#section_2">
                                     <div class="d-flex">
                                         <div>
-                                            <h5 class="mb-2">Подробное расписание мероприятий</h5>
+                                            <h5 class="mb-2">Расписание мероприятий</h5>
 
-                                            <p class="mb-0">Здесь вы можете посмотреть подробное расписание мероприятий церкви.</p>
+                                            <p class="mb-0"><b>Каждое воскресенье - богослужение в 11:00.</b> <br><br>Также вы можете ознакомиться с мероприятиями и служением церкви более подробно <span class="read_more">здесь</span></p>
                                         </div>
 
                                         <!-- <span class="badge bg-design rounded-pill ms-auto">14</span> -->
@@ -150,7 +152,7 @@
                                         <div>
                                             <h5 class="text-white mb-2">YouTube</h5>
 
-                                            <p class="text-white text_block_youtube">Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.</p>
+                                            <p class="text-white text_block_youtube">Приглашаем вас на любое из наших мероприятий, но если у вас нет возможности придти - вы можете посетить наш YouTube - канал.</p>
 
                                             <a href="https://www.youtube.com/@slovo-vn/streams" target="_blank" class="btn custom-btn mt-2 mt-lg-3">Смотреть на YouTube</a>
                                         </div>
@@ -159,9 +161,9 @@
                                     </div>
 
                                     <div class="social-share d-flex">
-                                        <p class="share_link text-white me-4">Поделиться ссылкой:</p>
+                                        <p class="share_link text-white me-4">Поделиться с друзьями:</p>
 
-                                        <ul class="social-icon col-6">
+                                        <ul class="social-icon col-md-6 col-12">
                                             <li class="social-icon-item">
                                                 <a href="https://t.me/share/url?url=https://www.youtube.com/@slovo-vn/streams&text=Местная%20религиозная%20организация%20Российская%20Церковь%20Христиан%20Веры%20Евангельской%20Слово%20Жизни%20Великого%20Новгорода" target="_blank" class="social-icon-link bi-telegram"></a>
                                             </li>
@@ -170,12 +172,12 @@
                                                 <a href="https://api.whatsapp.com/send/?text=https://www.youtube.com/@slovo-vn/streams%20Местная%20религиозная%20организация%20Российская%20Церковь%20Христиан%20Веры%20Евангельской%20Слово%20Жизни%20Великого%20Новгорода" target="_blank" class="social-icon-link bi-whatsapp"></a>
                                             </li>
 
-                                            <!-- <li class="social-icon-item">
-                                                <a href="#" class="social-icon-link bi-instagram"></a>
-                                            </li> -->
+                                            <li class="social-icon-item">
+                                                <a href="https://vkontakte.ru/share.php?url=https://www.youtube.com/@slovo-vn/streams%20Местная%20религиозная%20организация%20Российская%20Церковь%20Христиан%20Веры%20Евангельской%20Слово%20Жизни%20Великого%20Новгорода" target="_blank" class="social-icon-link bi font_vk">ВК</a>
+                                            </li>
                                         </ul>
 
-                                        <a href="https://google.com" rel="sidebar" onclick="addSite()" class="js-bookmark custom-icon bi-bookmark ms-auto"></a>
+                                        <a href="https://wordlife.online" rel="sidebar" onclick="addSite()" class="header_bookmark js-bookmark custom-icon bi-bookmark ms-auto"></a>
                                     </div>
 
                                     <div class="section-overlay"></div>
@@ -211,15 +213,15 @@
                             </li>
 
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Finance</button>
+                                <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Конференции</button>
                             </li>
 
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Music</button>
+                                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Неформальные встречи</button>
                             </li>
 
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="false">Education</button>
+                                <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education-tab-pane" type="button" role="tab" aria-controls="education-tab-pane" aria-selected="false">Пожертвовать</button>
                             </li>
                         </ul>
                     </div>
@@ -228,11 +230,13 @@
                 <div class="container">
                     <div class="row">
 
+
+<!-- Расписание служений -->
                         <div class="col-12">
                             <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-4">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
@@ -242,7 +246,7 @@
                                                             <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
                                                         </div>
 
-                                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                                        <!-- <span class="badge bg-design rounded-pill ms-auto">14</span> -->
                                                     </div>
 
                                                     <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
@@ -250,7 +254,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-4">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
@@ -260,7 +264,7 @@
                                                                 <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                         </div>
 
-                                                        <span class="badge bg-design rounded-pill ms-auto">75</span>
+                                                        <!-- <span class="badge bg-design rounded-pill ms-auto">75</span> -->
                                                     </div>
 
                                                     <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
@@ -268,7 +272,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-lg-4">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
                                                     <div class="d-flex">
@@ -278,16 +282,19 @@
                                                                 <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                         </div>
 
-                                                        <span class="badge bg-design rounded-pill ms-auto">100</span>
+                                                        <!-- <span class="badge bg-design rounded-pill ms-auto">100</span> -->
                                                     </div>
 
                                                     <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
 
+
+<!-- Социальное служение -->
                                 <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
@@ -300,7 +307,7 @@
                                                                 <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                             </div>
 
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                                            <!-- <span class="badge bg-advertising rounded-pill ms-auto">30</span> -->
                                                         </div>
 
                                                         <img src="images/topics/undraw_online_ad_re_ol62.png" class="custom-block-image img-fluid" alt="">
@@ -318,7 +325,7 @@
                                                                 <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                             </div>
 
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">65</span>
+                                                            <!-- <span class="badge bg-advertising rounded-pill ms-auto">65</span> -->
                                                         </div>
 
                                                         <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
@@ -336,7 +343,7 @@
                                                                 <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                             </div>
 
-                                                            <span class="badge bg-advertising rounded-pill ms-auto">50</span>
+                                                            <!-- <span class="badge bg-advertising rounded-pill ms-auto">50</span> -->
                                                         </div>
 
                                                         <img src="images/topics/undraw_viral_tweet_gndb.png" class="custom-block-image img-fluid" alt="">
@@ -346,129 +353,10 @@
                                         </div>
                                   </div>
 
+
+<!-- Предстоящие Конференции -->
                                 <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">   <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Investment</h5>
 
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-finance rounded-pill ms-auto">30</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="custom-block custom-block-overlay">
-                                                <div class="d-flex flex-column h-100">
-                                                    <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
-
-                                                    <div class="custom-block-overlay-text d-flex">
-                                                        <div>
-                                                            <h5 class="text-white mb-2">Finance</h5>
-
-                                                            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
-
-                                                            <a href="topics-detail.html" class="btn custom-btn mt-2 mt-lg-3">Learn More</a>
-                                                        </div>
-
-                                                        <span class="badge bg-finance rounded-pill ms-auto">25</span>
-                                                    </div>
-
-                                                    <div class="social-share d-flex">
-                                                        <p class="text-white me-4">Share:</p>
-
-                                                        <ul class="social-icon">
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-twitter"></a>
-                                                            </li>
-
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-facebook"></a>
-                                                            </li>
-
-                                                            <li class="social-icon-item">
-                                                                <a href="#" class="social-icon-link bi-pinterest"></a>
-                                                            </li>
-                                                        </ul>
-
-                                                        <a href="#" class="custom-icon bi-bookmark ms-auto"></a>
-                                                    </div>
-
-                                                    <div class="section-overlay"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Composing Song</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Online Music</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4 col-md-6 col-12">
-                                            <div class="custom-block bg-white shadow-lg">
-                                                <a href="topics-detail.html">
-                                                    <div class="d-flex">
-                                                        <div>
-                                                            <h5 class="mb-2">Podcast</h5>
-
-                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
-                                                        </div>
-
-                                                        <span class="badge bg-music rounded-pill ms-auto">20</span>
-                                                    </div>
-
-                                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
-                                    <div class="row">
                                         <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
                                             <div class="custom-block bg-white shadow-lg">
                                                 <a href="topics-detail.html">
@@ -479,7 +367,7 @@
                                                             <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                         </div>
 
-                                                        <span class="badge bg-education rounded-pill ms-auto">80</span>
+                                                        <!-- <span class="badge bg-education rounded-pill ms-auto">80</span> -->
                                                     </div>
 
                                                     <img src="images/topics/undraw_Graduation_re_gthn.png" class="custom-block-image img-fluid" alt="">
@@ -497,13 +385,142 @@
                                                             <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
                                                         </div>
 
-                                                        <span class="badge bg-education rounded-pill ms-auto">75</span>
+                                                        <!-- <span class="badge bg-education rounded-pill ms-auto">75</span> -->
                                                     </div>
 
                                                     <img src="images/topics/undraw_Educator_re_ju47.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+
+
+<!-- Неформальные -->
+                                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+                                    <div class="row">
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="topics-detail.html">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Встреча старшего поколения</h5>
+
+                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <!-- <span class="badge bg-music rounded-pill ms-auto">45</span> -->
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Compose_music_re_wpiw.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="topics-detail.html">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Online Music</h5>
+
+                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <!-- <span class="badge bg-music rounded-pill ms-auto">45</span> -->
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                <a href="topics-detail.html">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Podcast</h5>
+
+                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <!-- <span class="badge bg-music rounded-pill ms-auto">20</span> -->
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+<!-- Пожертвовать -->
+                                <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
+                                    <div class="row">
+
+                                      <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                                          <div class="custom-block bg-white shadow-lg">
+                                              <a href="topics-detail.html">
+                                                  <div class="d-flex">
+                                                      <div>
+                                                          <h5 class="mb-2">Investment</h5>
+
+                                                          <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                      </div>
+
+                                                      <!-- <span class="badge bg-finance rounded-pill ms-auto">30</span> -->
+                                                  </div>
+
+                                                  <img src="images/topics/undraw_Finance_re_gnv2.png" class="custom-block-image img-fluid" alt="">
+                                              </a>
+                                          </div>
+                                      </div>
+
+                                      <div class="col-lg-6 col-md-6 col-12">
+                                          <div class="custom-block custom-block-overlay">
+                                              <div class="d-flex flex-column h-100">
+                                                  <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
+
+                                                  <div class="custom-block-overlay-text d-flex">
+                                                      <div>
+                                                          <h5 class="text-white mb-2">Помочь церкви финансами</h5>
+
+                                                          <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis</p>
+
+                                                          <a href="https://platiqr.ru/?uuid=1000056752" target="_blank" class="btn custom-btn mt-2 mt-lg-3">Пожертвовать</a>
+                                                      </div>
+
+                                                      <!-- <span class="badge bg-finance rounded-pill ms-auto">25</span> -->
+                                                  </div>
+
+                                                  <div class="social-share d-flex">
+                                                      <p class="share_link text-white me-4">Поделиться ссылкой:</p>
+
+                                                      <ul class="social-icon col-6">
+                                                          <li class="social-icon-item">
+                                                              <a href="https://t.me/share/url?url=https://platiqr.ru/?uuid=1000056752" target="_blank" class="social-icon-link bi-telegram"></a>
+                                                          </li>
+
+                                                          <li class="social-icon-item">
+                                                              <a href="https://api.whatsapp.com/send/?text=https://platiqr.ru/?uuid=1000056752" target="_blank" class="social-icon-link bi-whatsapp"></a>
+                                                          </li>
+
+                                                          <!-- <li class="social-icon-item">
+                                                              <a href="#" class="social-icon-link bi-instagram"></a>
+                                                          </li> -->
+                                                      </ul>
+
+                                                      <a href="https://wordlife.online" rel="sidebar" onclick="addSite()" class="js-bookmark custom-icon bi-bookmark ms-auto"></a>
+                                                  </div>
+
+                                                  <div class="section-overlay"></div>
+                                              </div>
+                                          </div>
+                                      </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -565,7 +582,7 @@
 
                         <div class="col-12 text-center mt-5">
                             <p class="text-white">
-                                Желаете узнать больше - приглашаем вас на богослужение или на наш
+                                Желаете узнать больше? - приглашаем вас на богослужение или на наш
                                 <a href="https://www.youtube.com/@slovo-vn/streams" target="_blank" class="btn custom-btn custom-border-btn ms-3">Youtube канал</a>
                             </p>
                         </div>
@@ -593,13 +610,13 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        What is Topic Listing?
+                                        Какой дресс-код в церкви?
                                         </button>
                                     </h2>
 
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to redistribute this template</strong> on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis repudiandae, molestias quisquam atque, ipsum quos! Vero voluptates, dicta obcaecati iste!
                                         </div>
                                     </div>
                                 </div>
@@ -607,13 +624,13 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        How to find a topic?
+                                        А если там будут петь, а я слов песен не знаю?
                                     </button>
                                     </h2>
 
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            You can search on Google with <strong>keywords</strong> such as templatemo portfolio, templatemo one-page layouts, photography, digital marketing, etc.
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eius unde obcaecati rem exercitationem itaque architecto sequi libero, aliquam nihil?
                                         </div>
                                     </div>
                                 </div>
@@ -621,13 +638,13 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Does it need to paid?
+                                          Еще какой-либо вопрос?
                                     </button>
                                     </h2>
 
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolor praesentium, accusantium, ratione earum ipsam quidem aperiam laudantium mollitia natus.
                                         </div>
                                     </div>
                                 </div>
@@ -647,56 +664,43 @@
                             <h2 class="mb-5">Как нас найти?</h2>
                         </div>
 
-                        <div class="col-lg-5 col-12 mb-4 mb-lg-0">
-                            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.7032250856805!2d31.251729277003648!3d58.52221147536337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46beea3310ac9b63%3A0x7bb0fabc62c56a56!2z0KHQu9C-0LLQviDQltC40LfQvdC4!5e1!3m2!1sru!2sru!4v1699384599165!5m2!1sru!2sru" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.7032250856805!2d31.251729277003648!3d58.52221147536337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46beea3310ac9b63%3A0x7bb0fabc62c56a56!2z0KHQu9C-0LLQviDQltC40LfQvdC4!5e1!3m2!1sru!2sru!4v1699384599165!5m2!1sru!2sru" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-                            <h4 class="mb-3">Head office</h4>
+                        <div class="col-lg-6 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
+                            <h4 class="mb-3">Главное здание</h4>
 
-                            <p>Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
+                            <p>г. Великий Новгород, ул. Белова, д.3</p>
 
                             <hr>
 
                             <p class="d-flex align-items-center mb-1">
-                                <span class="me-2">Phone</span>
+                                <span class="me-2">Телефон</span>
 
-                                <a href="tel: 305-240-9671" class="site-footer-link">
-                                    305-240-9671
+                                <a href="tel:+79221387488" class="site-footer-link">
+                                    +7 (922) 138-74-88 (Секретарь церкви)
                                 </a>
                             </p>
 
                             <p class="d-flex align-items-center">
                                 <span class="me-2">Email</span>
 
-                                <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
-                                </a>
-                            </p>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-12 mx-auto">
-                            <h4 class="mb-3">Dubai office</h4>
-
-                            <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
-
-                            <hr>
-
-                            <p class="d-flex align-items-center mb-1">
-                                <span class="me-2">Phone</span>
-
-                                <a href="tel: 110-220-3400" class="site-footer-link">
-                                    110-220-3400
+                                <a href="mailto:novlife@mail.ru" class="site-footer-link">
+                                    novlife@mail.ru
                                 </a>
                             </p>
 
-                            <p class="d-flex align-items-center">
-                                <span class="me-2">Email</span>
+                            <ul class="social-icon col-6">
+                                <li class="social-icon-item">
+                                    <a href="https://vk.com/slovozhizninov" target="_blank" class="social-icon-link font_vk">ВК</a>
+                                </li>
 
-                                <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
-                                </a>
-                            </p>
+                                <li class="social-icon-item">
+                                    <a href="https://www.youtube.com/@slovo-vn/streams" target="_blank" class="social-icon-link bi-youtube"></a>
+                                </li>
+
+                            </ul>
                         </div>
 
                     </div>
@@ -752,7 +756,20 @@
                                 novlife@mail.ru
                             </a>
                         </p>
+
+                          <ul class="social-icon col-6">
+                              <li class="social-icon-item">
+                                  <a href="https://vk.com/slovozhizninov" target="_blank" class="social-icon-link bi font_vk">ВК</a>
+                              </li>
+
+                              <li class="social-icon-item">
+                                  <a href="https://www.youtube.com/@slovo-vn/streams" target="_blank" class="social-icon-link bi-youtube"></a>
+                              </li>
+
+                          </ul>
                     </div>
+
+
 
                     <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0">
                         <!-- <div class="dropdown">
@@ -779,7 +796,7 @@
                   Местная религиозная организация Российская Церковь Христиан Веры Евангельской «Слово Жизни» Великого Новгорода.
             ИНН 5321027846 | КПП 532101001 | ОГРН 1025300005334 от 25 ноября 2002 г. | 173015, Новгородская область, город Великий Новгород, ул. Белова, д.3 <br>
             © 2023 Церковь "Слово Жизни" г. Великий Новгород | Все права защищены
-            <br>Design: <a rel="nofollow" href="https://panda-development.ru" target="_blank">Panda Development Studio</a>
+            <br>Site by: <a rel="nofollow" href="https://panda-development.ru" target="_blank">Panda Development Studio</a>
                 </p>
               </div>
             </div>
