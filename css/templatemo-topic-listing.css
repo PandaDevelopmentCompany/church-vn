@@ -1206,9 +1206,76 @@ a.font_vk {
 a.font_vk {
 }
 
-
+/* закладка в header */
 @media screen and (max-width: 768px) {
   .header_bookmark {
     display: none !important;
   }
 }
+
+
+
+/* Блок пожертвований */
+@media screen and (max-width: 767px) {
+  .support_for_desktop {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .support_for_mobile {
+    display: none !important;
+  }
+}
+
+.support_for_desktop {
+  height: 450px !important;
+}
+
+img.img_support {
+  width: 35%;
+}
+
+
+/* текст undeground */
+@media screen and (max-width: 624px) {
+  .under_footer {
+    text-align: start;
+  }
+  footer .text-center {
+    margin-left: 10px !important;
+    padding-left: 0;
+  }
+}
+
+
+
+
+
+/* small heading */
+.small_heading {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aaaaaaaaaaaaa */
