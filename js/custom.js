@@ -173,4 +173,26 @@
 
 
 
+
+
+
+
+
+
+
+// свернуть меню на мобилках по клику на свободное пространство
+ //         $(function(){ 
+ //     var navMain = $("#navbarNav");
+ //     navMain.on("click", "button", null, function () {
+ //         navMain.collapse('hide');
+ //     });
+ // });
+
+
+
+
+
+
+
+
 // aaaaa

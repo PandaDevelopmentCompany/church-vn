@@ -735,7 +735,7 @@ blockquote {
 
 .timeline-container .vertical-scrollable-timeline .list-progress {
   width: 8px;
-  height: 87%;
+  height: 80%;
   background-color: var(--primary-color);
   position: absolute;
   left: 52px;
@@ -1220,6 +1220,9 @@ a.font_vk {
   .support_for_desktop {
     display: none !important;
   }
+  .support_for_mobile .custom-block {
+    min-height: 400px;
+  }
 }
 @media screen and (min-width: 768px) {
   .support_for_mobile {
@@ -1271,7 +1274,18 @@ img.img_support {
 
 
 
-
+/* active bar block mission remove on mobile */
+@media screen and (max-width: 425px) {
+  .list-progress {
+    display: none !important;
+  }
+  .remove_on_mobile {
+    display: none !important;
+  }
+  #section_3 li {
+    padding-left: 0 !important;
+  }
+}
 
 
 
