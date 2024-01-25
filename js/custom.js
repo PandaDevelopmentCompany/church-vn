@@ -71,6 +71,30 @@
 
 
 
+ // для 1 пункта (расписание мероприятий) в header в левой карточке
+  document.getElementById('main_link_0_0').onclick = function() {
+    document.getElementById('marketing-tab-pane').classList.remove('active');
+    document.getElementById('marketing-tab').classList.remove('active');
+    document.getElementById('marketing-tab-pane').classList.remove('show');
+    document.getElementById('finance-tab-pane').classList.remove('active');
+    document.getElementById('finance-tab').classList.remove('active');
+    document.getElementById('finance-tab-pane').classList.remove('show');
+    document.getElementById('music-tab-pane').classList.remove('active');
+    document.getElementById('music-tab').classList.remove('active');
+    document.getElementById('music-tab-pane').classList.remove('show');
+    document.getElementById('education-tab-pane').classList.remove('active');
+    document.getElementById('education-tab').classList.remove('active');
+    document.getElementById('education-tab-pane').classList.remove('show');
+
+    document.getElementById('design-tab-pane').classList.add('show');
+    document.getElementById('design-tab-pane').classList.add('active');
+    document.getElementById('design-tab').classList.add('active');
+  }
+
+
+
+
+
   // для 1 пункта меню в подвале слева, мероприятия
   document.getElementById('main_link_0').onclick = function() {
     document.getElementById('marketing-tab-pane').classList.remove('active');
