@@ -550,7 +550,7 @@ strong {
 .custom-block-image {
   display: block;
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
   margin-top: 35px;
 }
@@ -1288,12 +1288,39 @@ img.img_support {
 }
 
 
+/* Отключение активности ссылок на мероприятия */
+.no_active_a {
+  pointer-events: none !important;
+}
 
 
+/* Текст p в карточках секции 2 */
 
+#section_1_1 p {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (20 - 16) + 16px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
+}
 
+#section_2 p {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (18 - 16) + 16px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
+}
 
+#section_3 p {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (18 - 16) + 16px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
+}
 
+@media screen and (min-width: 1440px) {
+  #section_1_1 p {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+  #section_2 p {
+    font-size: 18px !important;
+    line-height: 27px !important;
+  }
+}
 
 
 
