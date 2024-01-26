@@ -555,7 +555,12 @@ strong {
   margin-top: 35px;
 }
 @media screen and (max-width: 468px) {
-  .custom-block-image {
+  #section_2 .custom-block-image {
+    height: 200px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  #section_2 .custom-block-image {
     height: 200px !important;
   }
 }
@@ -1316,6 +1321,21 @@ img.img_support {
   line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
 }
 
+#section_4 div.accordion-body {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (16 - 14) + 14px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
+}
+
+#section_4 h2 button {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (18 - 16) + 16px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
+}
+
+#section_5 p {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (18 - 16) + 16px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (27 - 24) + 24px) !important;
+}
+
 @media screen and (min-width: 1440px) {
   #section_1_1 p {
     font-size: 20px !important;
@@ -1324,6 +1344,14 @@ img.img_support {
   #section_2 p {
     font-size: 18px !important;
     line-height: 27px !important;
+  }
+  #section_4 div.accordion-body {
+    font-size: 18px !important;
+    line-height: 40px !important;
+  }
+  #section_5 p {
+    font-size: 20px !important;
+    line-height: 30px !important;
   }
 }
 
@@ -1350,6 +1378,7 @@ h3.main_h3_style {
     line-height: 60px !important;
   }
 }
+
 
 
 @media screen and (min-width: 356px) {
