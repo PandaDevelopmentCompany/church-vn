@@ -1379,10 +1379,21 @@ h1.main_h1_style {
   font-size: calc( (100vw - 320px)/(1440 - 320) * (46 - 24) + 24px) !important;
   line-height: calc( (100vw - 320px)/(1440 - 320) * (69 - 36) + 36px) !important;
 }
+
+
+#section_4 h2 {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (38 - 24) + 24px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (35 - 18) + 18px) !important;
+}
+
 @media screen and (min-width: 1440px) {
   h1.main_h1_style {
     font-size: 58px !important;
     line-height: 70px !important;
+  }
+  #section_4 h2 {
+    font-size: 38px !important;
+    line-height: 35px !important;
   }
 }
 
