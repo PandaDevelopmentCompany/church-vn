@@ -554,6 +554,11 @@ strong {
   object-fit: cover;
   margin-top: 35px;
 }
+@media screen and (max-width: 468px) {
+  .custom-block-image {
+    height: 200px !important;
+  }
+}
 
 .custom-block .rounded-pill {
   border-radius: 5px !important;
@@ -1321,6 +1326,48 @@ img.img_support {
     line-height: 27px !important;
   }
 }
+
+
+/* Главный заголовок */
+h1.main_h1_style {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (46 - 24) + 24px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (69 - 36) + 36px) !important;
+}
+@media screen and (min-width: 1440px) {
+  h1.main_h1_style {
+    font-size: 58px !important;
+    line-height: 70px !important;
+  }
+}
+
+h3.main_h3_style {
+  font-size: calc( (100vw - 320px)/(1440 - 320) * (46 - 22) + 22px) !important;
+  line-height: calc( (100vw - 320px)/(1440 - 320) * (60 - 30) + 30px) !important;
+}
+@media screen and (min-width: 1440px) {
+  h3.main_h3_style {
+    font-size: 46px !important;
+    line-height: 60px !important;
+  }
+}
+
+
+@media screen and (min-width: 356px) {
+  br.br_heading_main {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
