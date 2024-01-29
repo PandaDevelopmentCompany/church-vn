@@ -225,6 +225,121 @@
 
 
 
+// для 1 пункта меню мероприятий в top navbar
+  document.getElementById('top_main_link_1').onclick = function() {
+    document.getElementById('marketing-tab-pane').classList.remove('active');
+    document.getElementById('marketing-tab').classList.remove('active');
+    document.getElementById('marketing-tab-pane').classList.remove('show');
+    document.getElementById('finance-tab-pane').classList.remove('active');
+    document.getElementById('finance-tab').classList.remove('active');
+    document.getElementById('finance-tab-pane').classList.remove('show');
+    document.getElementById('music-tab-pane').classList.remove('active');
+    document.getElementById('music-tab').classList.remove('active');
+    document.getElementById('music-tab-pane').classList.remove('show');
+    document.getElementById('education-tab-pane').classList.remove('active');
+    document.getElementById('education-tab').classList.remove('active');
+    document.getElementById('education-tab-pane').classList.remove('show');
+
+    document.getElementById('design-tab-pane').classList.add('show');
+    document.getElementById('design-tab-pane').classList.add('active');
+    document.getElementById('design-tab').classList.add('active');
+  }
+
+
+// для 2 пункта меню мероприятий в top navbar
+  document.getElementById('top_main_link_2').onclick = function() {
+    document.getElementById('design-tab-pane').classList.remove('active');
+    document.getElementById('design-tab').classList.remove('active');
+    document.getElementById('design-tab-pane').classList.remove('show');
+    document.getElementById('finance-tab-pane').classList.remove('active');
+    document.getElementById('finance-tab').classList.remove('active');
+    document.getElementById('finance-tab-pane').classList.remove('show');
+    document.getElementById('music-tab-pane').classList.remove('active');
+    document.getElementById('music-tab').classList.remove('active');
+    document.getElementById('music-tab-pane').classList.remove('show');
+    document.getElementById('education-tab-pane').classList.remove('active');
+    document.getElementById('education-tab').classList.remove('active');
+    document.getElementById('education-tab-pane').classList.remove('show');
+
+    document.getElementById('marketing-tab-pane').classList.add('show');
+    document.getElementById('marketing-tab-pane').classList.add('active');
+    document.getElementById('marketing-tab').classList.add('active');
+  }
+
+  // для 3 пункта меню мероприятий в top navbar
+    document.getElementById('top_main_link_3').onclick = function() {
+      document.getElementById('design-tab-pane').classList.remove('active');
+      document.getElementById('design-tab').classList.remove('active');
+      document.getElementById('design-tab-pane').classList.remove('show');
+      document.getElementById('marketing-tab-pane').classList.remove('active');
+      document.getElementById('marketing-tab').classList.remove('active');
+      document.getElementById('marketing-tab-pane').classList.remove('show');
+      document.getElementById('music-tab-pane').classList.remove('active');
+      document.getElementById('music-tab').classList.remove('active');
+      document.getElementById('music-tab-pane').classList.remove('show');
+      document.getElementById('education-tab-pane').classList.remove('active');
+      document.getElementById('education-tab').classList.remove('active');
+      document.getElementById('education-tab-pane').classList.remove('show');
+
+      document.getElementById('finance-tab-pane').classList.add('show');
+      document.getElementById('finance-tab-pane').classList.add('active');
+      document.getElementById('finance-tab').classList.add('active');
+    }
+
+    // для 4 пункта меню мероприятий в top navbar
+      document.getElementById('top_main_link_4').onclick = function() {
+        document.getElementById('design-tab-pane').classList.remove('active');
+        document.getElementById('design-tab').classList.remove('active');
+        document.getElementById('design-tab-pane').classList.remove('show');
+        document.getElementById('finance-tab-pane').classList.remove('active');
+        document.getElementById('finance-tab').classList.remove('active');
+        document.getElementById('finance-tab-pane').classList.remove('show');
+        document.getElementById('marketing-tab-pane').classList.remove('active');
+        document.getElementById('marketing-tab').classList.remove('active');
+        document.getElementById('marketing-tab-pane').classList.remove('show');
+        document.getElementById('education-tab-pane').classList.remove('active');
+        document.getElementById('education-tab').classList.remove('active');
+        document.getElementById('education-tab-pane').classList.remove('show');
+
+        document.getElementById('music-tab-pane').classList.add('show');
+        document.getElementById('music-tab-pane').classList.add('active');
+        document.getElementById('music-tab').classList.add('active');
+      }
+
+      // для 5 пункта меню мероприятий в top navbar
+        document.getElementById('top_main_link_5').onclick = function() {
+          document.getElementById('design-tab-pane').classList.remove('active');
+          document.getElementById('design-tab').classList.remove('active');
+          document.getElementById('design-tab-pane').classList.remove('show');
+          document.getElementById('finance-tab-pane').classList.remove('active');
+          document.getElementById('finance-tab').classList.remove('active');
+          document.getElementById('finance-tab-pane').classList.remove('show');
+          document.getElementById('music-tab-pane').classList.remove('active');
+          document.getElementById('music-tab').classList.remove('active');
+          document.getElementById('music-tab-pane').classList.remove('show');
+          document.getElementById('marketing-tab-pane').classList.remove('active');
+          document.getElementById('marketing-tab').classList.remove('active');
+          document.getElementById('marketing-tab-pane').classList.remove('show');
+
+          document.getElementById('education-tab-pane').classList.add('show');
+          document.getElementById('education-tab-pane').classList.add('active');
+          document.getElementById('education-tab').classList.add('active');
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // свернуть меню на мобилках по клику на свободное пространство
  //         $(function(){ 

@@ -745,7 +745,7 @@ blockquote {
 
 .timeline-container .vertical-scrollable-timeline .list-progress {
   width: 8px;
-  height: 80%;
+  height: 85%;
   background-color: var(--primary-color);
   position: absolute;
   left: 52px;
@@ -1084,7 +1084,7 @@ blockquote {
     left: 10px;
     opacity: 1;
     pointer-events: auto;
-    max-width: 155px;
+    max-width: 250px;
     margin-top: 10px;
     margin-bottom: 15px;
   }
@@ -1419,7 +1419,12 @@ h3.main_h3_style {
 
 
 
-
+/*  line progress высота   */
+@media screen and (max-width: 1024px) {
+  .timeline-container .vertical-scrollable-timeline .list-progress {
+    height: 85% !important;
+  }
+}
 
 
 
